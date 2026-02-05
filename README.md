@@ -34,9 +34,11 @@ Mijn repo voor Sprint 0 van de minor Web Design &amp; Development
 **Wat heb ik vandaag gedaan?**  
     Vandaag begon ik met het volgen van twee workshops over theming en html. Daarna heb ik een werkmap gemaakt in Notion waarin ik alles overzichtelijk vast kan leggen. Toen heb ik mijn leerdoelen aangevuld. Ik heb de readme aangevuld. De ideeën die ik gister thuis heb bedacht heb ik genoteerd en daar ben ik verder mee gegaan. Ik ga een prikbord collage maken waarin je zelf onderdelen er op kan slepen. Ik wil een calm en een chaos mode, waarbij de achtergrond gaat meebewegen met je muis. Ik heb op Codepen naar inspiratie gezocht voor hoe ik dit kan maken.  
 **Hoeveel tijd heeft me dat gekost?**  
-    Workshops duurden +/- 2 uur. Leerdoelen aanvullen duurde een half uur. Kiezen wat ik ga doen, codepen inspiratie zoeken en de readme aanvullen duurde een uur.  
+    Workshops duurden +/- 2 uur. Leerdoelen aanvullen duurde een half uur. Kiezen wat ik ga doen, codepen inspiratie zoeken en de readme aanvullen duurde een uur.  Ontwerpen duurde 2 uur. Thuis verder werken aan de code duurde ... .
 **Wat heb ik geleerd?**  
+    Ik heb veel geleerd over light/dark mode styling, oklch kleur, @media (prefers-contrast: more) en checkbox styling. 
 **Wat ga ik morgen doen?**  
+    Verder werken, eerste versie laten zien en een pubquiz doen.
 
 ### Vrijdag 06/02
 **Wat heb ik vandaag gedaan?**  
