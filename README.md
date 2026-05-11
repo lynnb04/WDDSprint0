@@ -1,5 +1,5 @@
 # WDD Sprint 0
-Mijn repo voor Sprint 0 van de minor Web Design &amp; Development
+Mijn repo voor Sprint 0 van de minor Web Design & Development
 
 
 ## Mijn leerdoelen
@@ -61,41 +61,25 @@ Mijn repo voor Sprint 0 van de minor Web Design &amp; Development
 **Hoe sluit dit aan bij mijn leerdoelen?**
     Ik merk dat ik deze week al veel sneller ben gaan bouwen zonder alles eerst helemaal tot in de details uit te denken. Door verschillende ideeën uit te proberen en ook weer los te laten, ben ik meer aan het spelen met code. Ik ben veel bewuster bezig geweest met itereren en mijn proces vastleggen, waardoor ik nu duidelijker zie hoe mijn ideeën zich ontwikkelen.  
 
+---
 
-### Maandag 09/02
-**Wat heb ik vandaag gedaan?**  
-**Hoeveel tijd heeft me dat gekost?**  
-**Wat heb ik geleerd?**  
-**Wat ga ik morgen doen?**  
+### Herkansing
+Voor de herkansing van Sprint 0 heb ik mijn project verder uitgewerkt:
 
-### Dinsdag 10/02
-**Wat heb ik vandaag gedaan?**  
-**Hoeveel tijd heeft me dat gekost?**  
-**Wat heb ik geleerd?**  
-**Wat ga ik morgen doen?**  
+1. Ik heb niet alleen mijn eigen gegevens opgehaald, maar ook de favoriete emoji's van alle klasgenoten uit de Minor Web Dev. Deze worden nu dynamisch getoond op een speciale post-it note.
+2. De stippen achtergrond is interactief, als je hovert over een stip wordt deze groter.
+3. Mijn eigen profielkaart toont nu veel meer data uit de API, zoals mijn favoriete game, lievelingsdier, woonplaats en zelfs mijn schoenmaat. Ook wordt mijn `fav_color` uit de API nu gebruikt als accentkleur op de kaart.
+4. De kaarten staan nu netjes in een grid van 3 kolommen (op desktop) en hebben een subtiele kantel-animatie (`tilt`) gekregen bij hover.
+5. De site is ook responsive.
 
-### Woensdag 11/02
-**Wat heb ik vandaag gedaan?**  
-**Hoeveel tijd heeft me dat gekost?**  
-**Wat heb ik geleerd?**  
-**Wat ga ik morgen doen?**  
-
-### Donderdag 12/02
-**Wat heb ik vandaag gedaan?**  
-**Hoeveel tijd heeft me dat gekost?**  
-**Wat heb ik geleerd?**  
-**Wat ga ik morgen doen?**  
-
-### Vrijdag 13/02 (geen les)
-**Wat heb ik vandaag gedaan?**  
-**Hoeveel tijd heeft me dat gekost?**  
-**Wat heb ik geleerd?**  
-**Wat ga ik morgen doen?**  
-
-
-### Voortgang week 2
-...
-
+---
 
 ## Bronnenlijst
-...
+- [FDND Directus API](https://fdnd.directus.app) - Gebruikt voor het ophalen van persoonlijke gegevens en klasgenoten.
+- [Google Fonts](https://fonts.google.com/) - Caveat, Inter, en Indie Flower.
+- **Inspiratie**: 
+    - [Codepen](https://codepen.io/) - Voor ideeën rondom interactieve achtergronden en displacement effecten.
+    - [Pinterest](https://pinterest.com/) - Voor de "Scrapbook/Prikbord" esthetiek.
+- **Techniek**: 
+    - [MDN Web Docs](https://developer.mozilla.org/) - Voor documentatie over de Fetch API en CSS Grid.
+    - [CSS-Tricks](https://css-tricks.com/) - Voor uitleg over custom scrollbars en flexbox layouts.

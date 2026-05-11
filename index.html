@@ -1,17 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint 0</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <main>
-        <!-- <h1></h1>   -->
-        <div class="wrapper"></div>
+<html lang="nl">
 
-    </main>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn Prikbord voor WDD Sprint 0</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600&family=Indie+Flower&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- achtergrond stipjes grid -->
+  <div class="wrapper" id="dot-grid"></div>
+
+  <!-- scrapbook container -->
+  <main id="scrapbook">
+
+    <!-- titel tape bovenaan -->
+    <header class="scrapbook-header">
+      <div class="tape tape-pink"></div>
+      <h1>Mijn Prikbord</h1>
+      <div class="tape tape-lavender"></div>
+    </header>
+
+    <!-- profiel kaart wordt gevuld door de API -->
+    <article class="card card-profile" id="profile-card" data-tilt="2">
+      <div class="pin pin-red"></div>
+      <div class="card-inner">
+        <figure class="polaroid" id="profile-polaroid">
+          <!-- img wordt via JS ingeladen -->
+        </figure>
+        <div class="card-details" id="profile-details">
+          <!-- name, github, website, birthdate via JS -->
+        </div>
+      </div>
+      <div class="tape tape-mint tape-corner"></div>
+    </article>
+
+    <!-- sticky note van leerdoelen -->
+    <article class="card card-sticky card-sticky-yellow" id="card-leerdoelen" data-tilt="-3">
+      <div class="pin pin-blue"></div>
+      <h2>Mijn Leerdoelen</h2>
+      <ul>
+        <li>Ik wil leren hoe ik creatieve en speelse interacties kan bouwen met HTML, CSS en JavaScript in plaats van “alleen functionele” interfaces.</li>
+        <li>Ik wil beter worden in experimenteren, niet terughoudend zijn met dingen uitproberen.</li>
+        <li>Ik wil beter worden in het maken en vastleggen van verschillende iteraties en hoe feedback hierin terugkomt.</li>
+      </ul>
+    </article>
+
+    <!-- foto kaart -->
+    <article class="card card-photo" id="card-honden" data-tilt="2.5">
+      <div class="tape tape-lavender tape-top-left"></div>
+      <div class="tape tape-mint tape-top-right"></div>
+      <figure>
+        <img src="./images/honden.jpg" alt="Mijn twee honden">
+        <figcaption class="caption">Mijn honden ♥</figcaption>
+      </figure>
+    </article>
+
+
+    <!-- sticky note van klasgenoten emojis -->
+    <article class="card card-sticky card-sticky-blue" id="card-emojis" data-tilt="-2">
+      <div class="pin pin-red"></div>
+      <h2>Favoriete emoji's in de klas</h2>
+      <ul id="emoji-list" class="emoji-container">
+        <!-- emojis via JS -->
+      </ul>
+    </article>
+
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
